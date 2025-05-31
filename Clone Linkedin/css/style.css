@@ -1,8 +1,8 @@
 body{
     padding: 0px;
-    margin-inline: 300px;
+    margin-inline: 400px;
     font-family: roboto, sans-serif;
-    justify-content: space-between;
+    
     
     
 }
@@ -60,12 +60,14 @@ body{
 }
 .logo{
     margin-right: 200px;
+    left: 0px;
 }
 
 .menu ul a li img{
-    width: 150px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: auto;
+    height: 75px;
+    
+    
 }
 
 .botao_redondo a{
@@ -120,5 +122,21 @@ body{
     border-right: 1px solid gray;
     margin: 0px;
     padding: 0px;
+}
+
+.login{
+    font-size: 22px;
+        color: gray;
+
+}
+
+.login ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.login li{
+    display: flex;
 }
 
