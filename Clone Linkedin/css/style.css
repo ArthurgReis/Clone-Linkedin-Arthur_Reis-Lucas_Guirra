@@ -1,11 +1,13 @@
 *{
     text-decoration: none;
+    list-style: none;
 }
 
 body{
     padding: 0px;
     margin-inline: 400px;
     font-family: roboto, sans-serif;
+    font-weight: 100;
     
 }
 
@@ -19,7 +21,6 @@ body{
     margin: 0px;
     padding: 0px;
     display: flex;
-    list-style: none;
     text-decoration: none;
     
 
@@ -99,16 +100,17 @@ body{
     
 }
 
-.menu .botao_redondo.azul a{
+
+.botao_redondo.azul a{
     color: rgb(53, 123, 245);
     border: 1px solid rgb(53, 123, 245);
 }
 
-.menu .botao_redondo.azul a:hover{
+.botao_redondo.azul a:hover{
     background-color: rgb(229, 239, 255);
 }
 
-.menu .botao_redondo.azul a:hover li{
+.botao_redondo.azul a:hover li{
     color: rgb(53, 123, 245);
 }
 
@@ -131,6 +133,10 @@ body{
     font-size: 50px;
         color: gray;
 
+}
+
+.login p{
+    margin-bottom: 5px;
 }
 
 .login ul{
@@ -182,4 +188,106 @@ body{
     width: 350px;
     color: black;
 }
+
+.login .botao_redondo{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.termos{
+    font-size: 12px;
+
+}
+
+.termos a{
+    color: rgb(53, 123, 245);;
+}
+
+.termos a:hover{
+    text-decoration: underline;
+} 
+
+.cadastro{
+    font-size: 15px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.cadastro a{
+    color: rgb(53, 123, 245);
+    margin-left: 5px;
+}
+
+.cadastro a:hover{
+    text-decoration: underline;
+} 
+
+.artigos{
+    margin-top: 20px;
+    padding-top: 50px;
+    background-color: rgba(204, 204, 204, 0.288);
+    margin-inline: -400px;
+    
+}
+
+.artigos .conteudo{
+    
+    margin-left: 400px;
+    display: flex;
+}
+
+
+.artigos ul{
+    display: flex;
+}
+
+.artigos .esquerda{
+    width: 400px;
+}
+
+.artigos .direita{
+    width: 600px;
+
+}
+
+.artigos .esquerda h2{
+    font-size: 30px;
+    font-weight: 100;
+    white-space: nowrap;
+}
+
+.artigos .esquerda p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.artigos .direita ul{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+
+.artigos .botao_redondo{
+    width: fit-content;
+    
+    
+}
+
+.artigos .botao_redondo a{
+    padding-inline: 20px;
+    border: 1px solid black;
+    color: black;
+}
+
+.artigos .botao_redondo.azul a{
+    color: rgb(53, 123, 245);
+    border: 1px solid rgb(53, 123, 245);
+}
+
+
+
+
+
 
