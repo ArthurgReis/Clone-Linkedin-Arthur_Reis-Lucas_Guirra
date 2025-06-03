@@ -1,11 +1,14 @@
 *{
     text-decoration: none;
     list-style: none;
+    line-height: 1.25;
+    letter-spacing: 1px;
 }
 
 body{
     padding: 0px;
-    margin-inline: 400px;
+    margin-left: 400px;
+    margin-right: 300px;
     font-family: roboto, sans-serif;
     font-weight: 100;
     
@@ -16,6 +19,8 @@ body{
     font-size: 12px;
     
 }
+
+
 
 .menu ul{
     margin: 0px;
@@ -80,11 +85,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 550;
     font-size: 16px;
     margin: 10px;
     height: 50px;
     white-space: nowrap;
-    color: solid black;
+    
     
    
 }
@@ -111,7 +117,7 @@ body{
 }
 
 .botao_redondo.azul a:hover li{
-    color: rgb(53, 123, 245);
+    color: rgb(42, 101, 202);
 }
 
 .botao_redondo a:hover{
@@ -149,11 +155,16 @@ body{
     display: flex;
 }
 
+.login img{
+    width: 700px;
+    object-fit: contain;
+}
+
 .esquerda ul{
     display: flex;
     flex-direction: column;
 }
-.esquerda img{
+.login .esquerda img{
     width: 20px;
     height: 20px;
     
@@ -189,9 +200,14 @@ body{
     color: black;
 }
 
+
 .login .botao_redondo{
     margin-left: 0px;
     padding-left: 0px;
+}
+
+.login .botao_redondo a:hover{
+    transition: 300ms;
 }
 .termos{
     font-size: 12px;
@@ -223,69 +239,164 @@ body{
     text-decoration: underline;
 } 
 
-.artigos{
+.buscas{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.buscas.artigos{
     margin-top: 20px;
-    padding-top: 50px;
     background-color: rgba(204, 204, 204, 0.288);
     margin-inline: -400px;
     
 }
 
-.artigos .conteudo{
-    
+
+.buscas .conteudo{
     margin-left: 400px;
+}
+
+.buscas .conteudo ul{
     display: flex;
 }
 
 
-.artigos ul{
-    display: flex;
+
+.buscas .esquerda{
+    width: 450px;
 }
 
-.artigos .esquerda{
-    width: 400px;
-}
+.buscas .direita{
+    width: 700px;
 
-.artigos .direita{
-    width: 600px;
 
 }
 
-.artigos .esquerda h2{
+.buscas .esquerda h2{
     font-size: 30px;
     font-weight: 100;
-    white-space: nowrap;
+    
 }
 
-.artigos .esquerda p{
+.buscas .esquerda p{
     font-size: 20px;
     line-height: 1.5;
 }
 
-.artigos .direita ul{
+.buscas .direita ul{
     display:flex;
     flex-wrap: wrap;
 }
 
 
 
-.artigos .botao_redondo{
+.buscas .botao_redondo{
     width: fit-content;
     
     
 }
 
-.artigos .botao_redondo a{
+.buscas .botao_redondo a{
     padding-inline: 20px;
     border: 1px solid black;
     color: black;
+    margin: 4px;
 }
 
-.artigos .botao_redondo.azul a{
-    color: rgb(53, 123, 245);
+.buscas .botao_redondo.azul a{
+    color: rgb(39, 92, 184);
     border: 1px solid rgb(53, 123, 245);
 }
 
+.buscas.emprego{
+    display: flex;
+}
+
+
+.anuncie{
+    background-color:rgba(222, 184, 135, 0.233);
+    margin-left: -400px;
+    margin-right: -400px;
+
+}
+
+.anuncie .conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.anuncie h2{
+    font-size: 30px;
+    font-weight: 100;
+    color: brown;
+    
+}
+
+.anuncie .botao_redondo.azul{
+    width: fit-content;
+}
+
+.anuncie .botao_redondo.azul a{
+    padding-inline: 20px;
+}
+
+.visivel{
+    background-color:rgba(204, 195, 183, 0.233);
+    margin-left: -400px;
+    margin-right: -400px;
+    
+}
+
+.visivel h2{
+    font-size: 30px;
+    font-weight: 100;
+    color: brown;
+    
+}
+.visivel p{
+    font-size: 20px;
+    
+    
+}
+
+.visivel .conteudo{
+    display: flex;
+    margin-inline: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.visivel li{
+    width: 500px;
+}
+
+.visivel img{
+    width: 450px;
+    margin: 30px;
+}
+
+.buscas.conecte{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.buscas.conecte li{
+    padding-right: 150px;
+    width: max-content
+}
+
+
+
+.direita h2{
+    font-size: 30px;
+    font-weight: 100;
+}
 
 
 
