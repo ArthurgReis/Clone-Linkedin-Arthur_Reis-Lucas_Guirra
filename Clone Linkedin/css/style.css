@@ -114,10 +114,11 @@ body{
 
 .botao_redondo.azul a:hover{
     background-color: rgb(229, 239, 255);
+    color: rgb(42, 101, 202);
 }
 
 .botao_redondo.azul a:hover li{
-    color: rgb(42, 101, 202);
+    color: rgb(21, 51, 102);
 }
 
 .botao_redondo a:hover{
@@ -387,8 +388,7 @@ body{
 }
 
 .buscas.conecte li{
-    padding-right: 150px;
-    width: max-content
+    width: fit-content
 }
 
 
@@ -398,7 +398,236 @@ body{
     font-weight: 100;
 }
 
+.botao_quadrado{
+    width: fit-content;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.botao_quadrado a ul{
+    padding: 0px;
+}
+
+.buscas.conecte .direita{
+    margin-left: 40px;
+    width: 500px;
+}
+
+.buscas.conecte .direita .botao_quadrado a ul{
+    display: flex;
+    color: black;
+    font-size: 22px;
+    padding-left: 0px;
+    flex-wrap: nowrap;
+     
+}
+
+.buscas.conecte .direita .botao_quadrado a ul i{
+    margin-left: 70px;
+    
+}
 
 
 
+.botao_quadrado:hover{
+    background-color: rgba(0, 0, 0, 0.1);
 
+}
+
+.para_quem {
+    margin-left: -400px;
+    padding: 0px;
+    display: flex;
+}
+
+.para_quem .esquerda{
+    background-color:rgba(204, 195, 183, 0.233);
+    width: fit-content;
+    height: 750px;
+    
+}
+.para_quem .esquerda h2{
+    font-size: 30px;
+    font-weight: 100;
+    color: brown;
+    
+    
+}
+.para_quem .esquerda .conteudo{
+    padding: 100px;
+    margin-left:200px ;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.para_quem .direita img{
+    margin-left: 60px;
+}
+
+.botao_quadrado.marrom{
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 0%;
+    border-color: transparent ;
+    background-color: rgba(204, 195, 183, 0.233);
+    
+}
+
+.botao_quadrado.marrom a ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+.botao_quadrado.marrom a ul i{
+    justify-content: right;
+    margin-right: 0px;
+    color: gray;
+    
+}
+
+.botao_quadrado.marrom a{
+    color: rgb(0, 0, 0);
+}
+
+.botao_quadrado.marrom:hover{
+    background-color: rgba(192, 176, 154, 0.452);
+}
+
+.comece{
+    margin-inline: -400px;
+    background-image:  url('https://verenigingdordrechtsmuseum.nl/wp-content/uploads/2023/03/linkdin-soc.-media-2023-03-06-om-13.26.24-867x484.png');
+    
+}
+
+.comece img{
+    opacity: 0.5;
+}
+
+.comece .conteudo{
+    margin-inline: 400px;
+    height:500px;
+}
+
+.comece h2{
+    font-size: 50px;
+    font-weight: 100;
+    
+}
+
+.comece .botao_redondo.comece{
+    width: fit-content;
+    margin-left: 0px;
+    padding-left: 0px;
+    background-color: transparent;
+
+}
+
+.comece .botao_redondo.comece a{
+    background-color: royalblue;
+    color: white;
+    padding-inline: 20px;
+}
+
+.comece .botao_redondo.comece a:hover{
+    background-color: rgb(23, 57, 114);
+    
+}
+
+.rodape_menu{
+    margin-top: 20px;
+    background-color: rgba(204, 195, 183, 0.233);
+    margin-inline: -400px;
+    display: flex;
+    
+}
+
+.rodape_menu .conteudo{
+    margin-inline: 250px;
+    
+    
+}
+
+.rodape_menu ul{
+    display: flex;
+    color: black;
+    
+}
+
+.rodape_menu li ul{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 50px;
+}
+
+.rodape_menu li ul h3{
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.rodape_menu li ul a{
+    color: rgb(65, 64, 64);
+    font-size: 14px;
+}
+
+
+
+.rodape_menu li img{
+    width: 100px;
+    
+    
+}
+
+.rodape_menu li ul li a:hover{
+    color: rgb(39, 92, 184);
+    text-decoration: underline;
+}
+
+.rodape{
+    white-space: nowrap;
+    margin-left: -150px;
+    color: gray;
+}
+
+
+.rodape img{
+    width: 80px;
+    
+}
+
+.logo_black{
+    display: flex;
+    align-items: center;
+    margin-inline: 20px;
+}
+
+.rodape ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.rodape ul li{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.rodape a{
+    white-space: nowrap;
+    color: gray;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.rodape a:hover{
+    color: rgb(39, 92, 184);
+    text-decoration: underline;
+}
